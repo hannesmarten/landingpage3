@@ -1,0 +1,520 @@
+/*
+Farben:
+Gelb: #FBF333
+Rosa: #F8CACA
+*/
+
+@font-face {
+  font-family: sans-serif;
+  src: url(./FONTS/MaisonNeue-Medium.ttf) format("truetype");
+}
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+#bild {
+  background-image: url("../IMG/banner.png");
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+/*
+#borderoben {
+  background-color: #FBF333;
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 20px;
+}
+*/
+
+/*
+#borderunten {
+  background-color: #FBF333;
+  position: relative;
+  bottom:0;
+  width: 100%;
+  height: 20px;
+}*/
+
+.logoo {
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+width: 90%;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.logoo img {
+  width: 100%;
+  height: auto;
+}
+
+.logoo a:hover {
+  text-decoration: none;
+  background-color: none;
+}
+
+
+
+
+.nav {
+background-color: ;
+margin: 0
+}
+
+.nav li  {
+  text-align: center;
+  display: block;
+  font-size: 3.5rem;
+  font-weight: lighter;
+  line-height:2;
+}
+
+.nav ul {
+  padding-inline-start: 0;
+  margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration:;
+  color: black;
+  background-color: #F8CACA;
+}
+
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.logoo a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.imprint {
+background-color: ;
+margin-top: 30px;
+line-height: 1.5;
+display: block;
+}
+
+
+
+.imprint li  {
+  text-align: center;
+  display: ;
+  font-size: 2rem;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.imprint ul {
+  padding-inline-start: 0;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+
+#fließtext {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 2rem;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 30px;
+}
+
+#imprint-text {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  display: block;
+}
+
+#penis {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#penis a {
+  font-size: 1rem;
+}
+
+
+#penis a:hover {
+  text-decoration: none;
+  background-color:#F8CACA;
+}
+
+
+.kontaktformular input{
+  border: 0 solid white;
+  color: black;
+  height: 35px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 0;
+  background-color: ;
+}
+
+.kontaktformular {
+padding-top: 0px;
+padding-bottom: 20px;
+}
+
+
+
+
+.kontaktformular textarea {
+  border: 0 solid white;
+  color: black;
+  height: 100px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.kontaktformular input::placeholder {
+  color: black;
+  font-size: 1rem;
+    padding-left: 10px;
+      font-family: sans-serif;
+}
+
+.kontaktformular textarea::placeholder {
+  color: black;
+  font-size: 1rem;
+    padding-left: 10px;
+    padding-top: 8px;
+      font-family: sans-serif;
+}
+
+.email {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.kontaktformular button {
+  height: 35px;
+  width: 50%;
+  background-color: #FBF333;
+  border: none;
+  font: sans-serif;
+  font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+.header-workwithus h2 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+
+
+#zurueck-btn a:hover {
+  text-decoration: none;
+}
+
+#lauftext {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #FBF333;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: sans-serif;
+  border: none;
+  margin: 0;
+  font-size: 1.2rem;
+
+}
+
+
+#borderoben {
+  border: none;
+  margin: 0;
+
+}
+
+
+
+.team {
+  text-align: center;
+  /*background-image: url("../IMG/bild3.jpg");
+  background-size: contain;*/
+}
+
+.team img {
+  margin-right: auto;
+  margin-left: auto;
+  width:40%;
+}
+
+#zurueck-btn {
+  background-color: #FBF333;
+  width: 20%;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  font-size: .8rem;
+  padding: 4px;
+  font-weight: lighter;
+}
+
+ #fließtext a:hover {
+   text-decoration: none;
+ }
+
+#header-workwithus {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+align-items: center;
+width: 50%;
+}
+
+#header-workwithus h2 {
+  font-weight: ;
+  font-size: 2rem;
+  border-bottom: #FBF333 solid 5px;
+  padding: 5px;
+}
+
+
+/*
+ .responsive {
+   background-image: url("../IMG/banner.png");
+   width: auto;
+   height: auto;
+   background-size: cover;
+   margin: 0;
+ }
+  .responsive h1 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    margin: 0;
+    font-size: 10rem;
+    font-weight: bold;
+    display: none;
+  }
+  */
+
+
+.flex {
+  display: flex;
+  width: 98%;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  line-height: 500px;
+}
+
+
+#vorstellung {
+  width: 45%;
+  height: 500px;
+}
+
+#vorstellung p {
+  margin: 0;
+  padding: 10px;
+  font-size: 2rem;
+  line-height: 1.15;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+#vorstellung-bild {
+
+  outline: 5px solid #F8CACA;
+  outline-offset: -5px;
+  width: 45%;
+  height: 500px;
+  background-image: url("../IMG/team.jpg");
+  background-size: cover;
+}
+
+@media (max-width: 900px) {
+
+  .flex {
+    flex-direction: column-reverse;
+    align-items: center;
+      line-height: 370px;
+  }
+
+  #vorstellung {
+    width: 90%;
+    height: 370px;
+  }
+
+  #vorstellung p {
+    width: 90%;
+    margin-top: 0;
+  }
+
+  #vorstellung-bild {
+    width: 90%;
+  }
+
+
+  @media (max-width: 1115px) {
+
+    .logo h1 {
+      font-size: 8rem;
+    }
+
+    .nav li  {
+      font-size: 3.2rem;
+    }
+
+    .imprint li  {
+      font-size: 1.8rem;
+    }
+
+  }
+
+  @media (max-width: 900px) {
+
+    .logo h1 {
+      font-size: 6rem;
+
+    }
+
+    .nav li  {
+      font-size: 2.5rem;
+    }
+
+    .imprint li  {
+      font-size: 1.2rem;
+    }
+
+  }
+
+  @media (max-width: 670px) {
+
+    .logo h1 {
+      font-size: 4.5rem;
+
+    }
+
+    .nav li  {
+      font-size: 2rem;
+      line-height: 5.5;
+    }
+
+    .imprint li  {
+      font-size: 1rem;
+    }
+
+    #fließtext {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    .kontaktformular input{
+
+      width: 80%;
+
+    }
+
+    .kontaktformular textarea {
+      width: 80%;
+    }
+
+    .kontaktformular button {
+
+      width: 80%;
+  }
+  #header-workwithus {
+
+  width: 80%;
+  }
+
+
+}
+
+  @media (max-width: 425px) {
+
+    .logo h1 {
+      font-size: 3.5rem;
+
+    }
+
+    .nav li  {
+      font-size: 2rem;
+    }
+
+    .imprint li  {
+      font-size: 1rem;
+    }
+
+    #zurueck-btn  {
+
+      width: 100%;
+      font-size: 1rem;
+
+    }
+
+  }
+
+  @media (max-width: 375px) {
+
+    .logo h1 {
+      font-size: 2.8rem;
+
+    }
+
+    .nav li  {
+      font-size: 2rem;
+    }
+
+    .imprint li  {
+      font-size: 1rem;
+    }
+
+    #zurueck-btn {
+
+      width: 20%;
+      font-size: 1rem;
+
+    }
+
+
+  }
